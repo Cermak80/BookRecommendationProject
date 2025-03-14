@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book recommender</title>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/Static/Selector.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="/Static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+</head>
+
+
+<body>
+
+<h1>
+Books recommender
+</h1>
+<br>
+<select  id="dropdown" style="width: 500px;">
+        <option value=""></option>
+    </select>
+<br>
+<button id="Sent">
+Recommend books
+
+</button>
+<br>
+    <div class="container" style="visibility: hidden">
+        <h2>Books you might like:</h2>
+        <div id="book-list"></div>
+    </div>
+
+</body>
+</html>
+
+
+
+
